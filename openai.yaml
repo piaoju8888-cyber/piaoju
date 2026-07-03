@@ -1,0 +1,6 @@
+interface:
+  display_name: "李涛超级团队工作流"
+  short_description: "调用长期记忆、文稿模板、核验与交付规则"
+  default_prompt: "Use $litao-superteam-workflow to plan and deliver a formal project document using Li Tao's default workflow."
+policy:
+  allow_implicit_invocation: true
