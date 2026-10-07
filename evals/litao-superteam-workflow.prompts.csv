@@ -1,0 +1,6 @@
+id,category,should_trigger,prompt
+trigger-01,direct,true,"Use the $litao-superteam-workflow skill. I need to prepare a formal due-diligence report for an investment project. Do not modify files; return only the task classification, evidence gaps, agent split, work steps, outputs, risks, and acceptance criteria."
+trigger-02,indirect,true,"我要给一家拟投资企业做正式尽调和风险判断。先不要写长报告，也不要创建文件；请先给我任务类型、证据缺口、分工、步骤、输出物、风险提示和验收标准。"
+trigger-03,incomplete,true,"帮我准备一份正式可研材料，但我还没有提供项目资料。不要编造事实，也不要创建文件；先指出缺哪些关键信息、哪些内容必须标注待核验或待补充。"
+trigger-04,non-trigger,false,"把这句话翻译成英文：今天天气很好。只给翻译，不要展开。"
+trigger-05,edge,true,"请给我一个当前金融监管政策分析的工作框架，但禁止上网、禁止猜数字，也不要创建文件；所有无法核实的当前事实都要明确标注待核验。"
